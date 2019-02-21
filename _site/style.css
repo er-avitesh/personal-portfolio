@@ -303,15 +303,6 @@ h4 {
 	font-weight:bold;
 }
 
-.img-certificate {
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
 .pulseit{
 	-webkit-animation: pulse linear .5s infinite;
 	animation: pulse linear .5s infinite;
@@ -326,4 +317,10 @@ h4 {
 	0% { width:108px; } 
 	50% { width:110px; } 
 	100% { width:108px; }
+}
+
+
+.zoom:hover {
+  transform: scale(1.2); 
+  font-weight: bold;
 }
