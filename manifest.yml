@@ -2,4 +2,6 @@ applications:
 - name: my-personal-site
   memory: 32M
   instances: 1
-  random-route: true
+  buildpack: staticfile_buildpack
+  routes:
+  - route: itsavitesh.cfapps.io
